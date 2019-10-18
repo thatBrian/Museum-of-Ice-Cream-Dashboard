@@ -1,4 +1,4 @@
-# VSearch
+# MOIC Dashboard
 ![alt text](./pics/home.png "MOIC DEMO")
 ![alt text](./pics/vanilla.png "MOIC DEMO2")
 ![alt text](./pics/mango.png "MOIC DEMO3")
