@@ -18,7 +18,7 @@ An Ice Cream flavor searching web app that includes charts and graphs and descri
 ## Inspiration
 MOIC dev challenge
 
-## What's next for VSearch
+## What's next
 Fixing mobile responsivness. 
 
 ## Tutorial
