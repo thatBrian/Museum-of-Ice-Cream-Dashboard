@@ -1,0 +1,4 @@
+{
+    "mongoURI":
+    "mongodb://icecream:icecream123@ds119304.mlab.com:19304/icecream"
+}
