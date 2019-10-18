@@ -1,0 +1,13 @@
+.App, html, body , #root {
+  text-align: center;
+  background-color: #F498B8;
+}
+
+.switch-wrapper {
+  position: relative;
+  height:100%
+}
+ 
+.switch-wrapper > div {
+  position: absolute;
+}

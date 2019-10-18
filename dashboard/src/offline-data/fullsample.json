@@ -1,0 +1,20 @@
+{
+    "Name":"Vanilla",
+    "Description":"BLAH BLAH BLAH GOOD",
+    "icstat":{
+        "options":{},
+        "series":{}
+    },
+    "bar":{
+        "options":{},
+        "series":{}
+    },
+    "percent":{
+        "options":{},
+        "series":{}
+    },
+    "heat":{
+        "options":{},
+        "series":{}
+    }
+}

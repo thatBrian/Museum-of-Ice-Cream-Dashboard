@@ -1,0 +1,94 @@
+#home-container {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'centra-no2', Helvetica, arial, sans-serif;
+    
+}
+
+#title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+#button {
+    padding: 15px 30px;
+    background-color: white;
+    border-radius: 28px
+}
+
+
+#button>a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ea0029
+}
+
+#logo-container>a:hover{
+    cursor:url('../src/scoop.png'),auto;
+}
+#logo {
+    height: 20vmin;
+    width: 20vmin;
+    margin: 20px;
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+    animation-iteration-count: infinite;
+    cursor:url('../src/scoop.png'),auto;
+}
+#logo:hover{
+    cursor:url('../src/scoop.png'),auto;
+}
+
+
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.spreader1 {
+    flex: 1
+}
+
+.spreader2 {
+    flex: 2
+}

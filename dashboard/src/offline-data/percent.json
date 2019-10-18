@@ -1,0 +1,17 @@
+{
+    "percentSeries": [
+        70
+    ],
+    "percentOptions": {
+        "plotOptions": {
+            "radialBar": {
+                "hollow": {
+                    "size": "75%"
+                }
+            }
+        },
+        "labels": [
+            "Score"
+        ]
+    }
+}
